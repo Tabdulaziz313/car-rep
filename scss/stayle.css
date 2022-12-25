@@ -329,6 +329,11 @@ button {
   border: 0px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 120px;
@@ -393,19 +398,19 @@ button {
 }
 
 .about__ul_link {
-  width: 95px;
+  width: 117px;
 }
 
 .about__link {
-  width: 115px;
-}
-
-.help__link {
   width: 137px;
 }
 
+.help__link {
+  width: 169px;
+}
+
 .help__ul_li {
-  width: 117px;
+  width: 149px;
 }
 
 #header-about:hover .about__ul {
@@ -446,6 +451,72 @@ button {
 
 .logo-link {
   display: flex;
+}
+
+.login-btn {
+  padding: 18px 30px;
+  background-color: rgb(41, 151, 100);
+  display: inline-block;
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+.login-btn_entire-object {
+  fill: rgb(255, 255, 255);
+}
+.login-btn_svg-item {
+  position: relative;
+  top: 2.6px;
+  margin-left: 9px;
+}
+.login-btn:hover {
+  background-color: rgb(7, 119, 67);
+}
+.login-btn:active {
+  background-color: rgb(245, 245, 245);
+  color: rgb(0, 0, 0);
+}
+.login-btn:active .login-btn_entire-object {
+  fill: rgb(0, 0, 0);
+}
+
+.drk-mode-btn {
+  width: 58px;
+  height: 58px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.entire-object-drk-btn {
+  fill: rgb(85, 85, 85);
+}
+
+.drk-mode-btn:hover .entire-object-drk-btn {
+  fill: rgb(0, 0, 0);
+}
+
+.drk-mode-btn:active {
+  background-color: rgb(41, 151, 100);
+}
+
+.drk-mode-btn:active .entire-object-drk-btn {
+  fill: rgb(255, 255, 255);
+}
+
+.dsply-flx {
+  display: flex;
+}
+
+.item-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.transition-classic {
+  transition: 0.6s;
 }
 
 .container {
