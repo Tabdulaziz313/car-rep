@@ -47,5 +47,49 @@
     <a href="#" class="faq-btn transition-classic">
         FAQ
     </a>
+
+
+
+
+    <div class="login__modal">
+        <div class="modal">
+                <button class="site__exit">
+                    <img src="./img/exit.svg" alt="site__exit" width="7.86" height="7.86">
+                </button>
+
+            <div class="login__titles"> 
+                <h2 class="login__title">Login</h2>
+                <p class="login__text">Use the email and password that you login</p>
+            </div>
+
+            <form class="form__login" action="https://echo.htmlacademy.ru/" onsubmit="return validated()">
+                <div class="box__inputs">
+                    <input class="email__input" type="email" placeholder="Email">
+                    <input class="password__input" type="password" placeholder="Password">
+                    <a class="eye__See">
+                        <img src="./img/eye.svg" id="eyeBtn" alt="site__eye">
+                    </a>
+                    
+                    <label class="site__title-password">
+                        Forgot password 
+                    </label>
+
+                    <p class="create__acaunt">
+                        I want to create an account
+                    </p>
+                    <div>
+                        <button class="login__button-modal">
+                            Login
+                            <svg width="16" height="16" viewBox="0 0 16 16" class="login-btn_svg-item" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="login-btn_entire-object transition-classic" d="M7.31315 14.4168C7.31315 14.0371 7.62096 13.7293 8.00065 13.7293H13.5007C13.6272 13.7293 13.7298 13.6267 13.7298 13.5002L13.7298 2.50016C13.7298 2.3736 13.6272 2.271 13.5006 2.271L8.00065 2.271C7.62095 2.271 7.31315 1.96319 7.31315 1.5835C7.31315 1.2038 7.62095 0.895996 8.00065 0.895996H13.5006C14.3866 0.895996 15.1048 1.61421 15.1048 2.50016V13.5002C15.1048 14.3861 14.3866 15.1043 13.5007 15.1043H8.00065C7.62096 15.1043 7.31315 14.7965 7.31315 14.4168Z"/>
+                                <path class="login-btn_entire-object transition-classic" d="M0.208984 9.02245C0.208984 9.52871 0.619389 9.93911 1.12565 9.93911H5.57697C5.59799 10.2649 5.6243 10.5905 5.65591 10.9156L5.6831 11.1954C5.72731 11.6503 6.21036 11.9227 6.6225 11.7252C8.2981 10.9222 9.81498 9.8233 11.1002 8.48142L11.1277 8.45274C11.3725 8.19711 11.3725 7.79397 11.1277 7.53833L11.1002 7.50966C9.81498 6.16778 8.2981 5.0689 6.62251 4.26589C6.21036 4.06837 5.72731 4.34079 5.6831 4.79568L5.65591 5.07545C5.6243 5.40061 5.59799 5.72617 5.57697 6.05198L1.12565 6.05198C0.619391 6.05198 0.208984 6.46238 0.208984 6.96864V9.02245Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+<script src="./js/main.js"></script>
 </html>
