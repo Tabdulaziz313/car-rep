@@ -1,0 +1,165 @@
+.login-btn {
+    border: none;
+    padding: 18px 30px;
+    background-color: rgba(41, 151, 100, 1);
+    display: inline-block;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+    &_entire-object {
+        fill: rgba(255, 255, 255, 1);
+    }
+
+    &_svg-item {
+        position: relative;
+        top: 2.6px;
+        margin-left: 9px;
+    }
+
+    &:hover {
+        background-color: rgba(7, 119, 67, 1);
+    }
+
+    &:active {
+        background-color: rgba(245, 245, 245, 1);
+        color: rgba(0, 0, 0, 1);
+    }
+
+    &:active &_entire-object {
+        fill: rgba(0, 0, 0, 1);
+    }
+}
+
+.item-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.transition-classic {
+    transition: 0.6s;
+}
+
+.login__modal {
+    display: none;
+    width: 100%;
+    height: 100vw;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.384);
+}
+
+.modal {
+    display: block;
+    padding: 24px 32px 24px 32px;
+    margin: 100px auto;
+    width: 590px;
+    height: 483px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.site__exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25.07px;
+    float: right;
+    border: none;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    border-radius: 100px;
+}
+
+.login__titles {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.login__title {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.login__text {
+    text-align: center;
+    color: #555555;
+}
+
+.email__input {
+    color: #299764;
+    font-size: 18px;
+    outline: none;
+    width: 526px;
+    padding: 13px;
+    background: #FFFFFF;
+    border: 1.5px solid #E5E7EA;
+    border-radius: 82px;
+}
+
+.password__input {
+    color: #299764;
+    margin-top: 16px;
+    font-size: 18px;
+    outline: none;
+    width: 526px;
+    padding: 13px;
+    background: #FFFFFF;
+    border: 1.5px solid #E5E7EA;
+    border-radius: 82px;
+}
+
+.login__button-modal {
+    width: 526px;
+    margin-top: 40px;
+    border: none;
+    padding: 18px 30px;
+    background-color: #299764;
+    display: inline-block;
+    border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.site__title-password {
+    text-align: end;
+}
+
+.eye__See {
+    position: absolute;
+    top: 349px;
+    left: 904px;
+    cursor: pointer;
+}
+
+.eye__See-none {
+    position: absolute;
+    top: 349px;
+    left: 904px;
+    display: none;
+    cursor: pointer;
+}
+
+.site__title-password {
+    color: #555555;
+    margin-left: 418px;
+}
+
+.create__acaunt {
+    margin-top: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.Email__error,
+.password__error {
+    margin-left: 5px;
+    color: #FF3B30;
+}
