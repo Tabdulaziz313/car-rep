@@ -9,7 +9,20 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+button{
+    border: 0px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 120px;
+}
 // body{
 //     // font-family: ;
 // }
